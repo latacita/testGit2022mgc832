@@ -1,7 +1,7 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Apellidos, Nombre):       García Conde, Miguel           %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
@@ -13,3 +13,9 @@
 14	git commit -m "Paso14"
 15	git checkout Historia001
 16	git stash apply
+
+1       git clone URL
+3	git branch Historia000
+4	git branch Historia001
+5	git branch Historia000
+11	git stash
