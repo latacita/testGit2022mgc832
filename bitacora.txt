@@ -1,11 +1,31 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Apellidos, Nombre):       García Conde, Miguel           %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+
+
+1       git clone URL
+3	git branch Historia000
+4	git branch Historia001
+5	git branch Historia000
+7	git add bitacora.txt
+8	git commit -m "Paso8"
+9	git checkout Historia001
+11	git stash
+13	git add bitacora.txt
+14	git commit -m "Paso14"
+15	git checkout Historia001
+16	git stash apply
+19	git commit -m "Paso19"
+20	git merge Historia000    //Han surgido conflictos, ya que los pasos descritos en la rama Historia001 no estaban
+				 //Descritos en la rama Historia000, y han sido solucionados.Ha tenido lugar el merge en ff.
+	git add bitacora.txt
+	git commit -m "arreglo conflictos" //Realize estos dos comandos para solucionar los conflictos y asi detener el merge
+					   //y en el siguiente commit se añadiran las descripciones de los pasos 19 y 20
 22	git add bitacora.txt
 23	git commit -m "Paso23"
 24	git checkout master
@@ -14,7 +34,10 @@
 26	git add bitacora.txt
 	git commit - m "Paso26"
 27	git tag RespuestaPreguntaFusion
-28	git pull
-	git push			//Tuve que hacer un git pull porque salió un error cuya solucion fue hacer un git pull
+28	git pull				
+	git push		//Tuve que hacer un git pull porque salió un error cuya solucion fue hacer un git pull
 					//Para actualizar la rama y posteriormente pushear.
+	
+
+
 
