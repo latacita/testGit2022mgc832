@@ -22,7 +22,7 @@
 16	git stash apply
 19	git commit -m "Paso19"
 20	git merge Historia000    //Han surgido conflictos, ya que los pasos descritos en la rama Historia001 no estaban
-				 //Descritos en la rama Historia000, y han sido solucionados.Ha tenido lugar el merge en ff.
+				 //Descritos en la rama Historia000, y han sido solucionados.Ha tenido lugar el merge en recursiva.
 	git add bitacora.txt
 	git commit -m "arreglo conflictos" //Realize estos dos comandos para solucionar los conflictos y asi detener el merge
 					   //y en el siguiente commit se añadiran las descripciones de los pasos 19 y 20
@@ -38,6 +38,12 @@
 	git push		//Tuve que hacer un git pull porque salió un error cuya solucion fue hacer un git pull
 					//Para actualizar la rama y posteriormente pushear.
 	
+30	git add bitacora.txt
+	git commit -m "Paso30"
+31	git merge Historia001					//Han surgido conflictos, ya que los pasos descritos en la rama Historia001 no estaban
+				 				//Descritos en la rama master, y han sido solucionados.Ha tenido lugar el merge en recursiva.
+	git add bitacora.txt
+	git commit -m "Conflictos Historia001 master"
 
 
 
