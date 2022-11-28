@@ -11,3 +11,10 @@
 24	git checkout master
 25				    //Es fusión recursiva que genera
                                       conflictos en bitacora.txt
+26	git add bitacora.txt
+	git commit - m "Paso26"
+27	git tag RespuestaPreguntaFusion
+28	git pull
+	git push			//Tuve que hacer un git pull porque salió un error cuya solucion fue hacer un git pull
+					//Para actualizar la rama y posteriormente pushear.
+
