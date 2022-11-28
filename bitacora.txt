@@ -1,8 +1,12 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Apellidos, Nombre):       García Conde, Miguel           %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+1       git clone URL
+3	git branch Historia000
+4	git branch Historia001
+5	git branch Historia000
